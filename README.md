@@ -86,7 +86,7 @@ public class MetierImpl implements IMetier {
 
 
 5. Injection des dépendances
-    1. Instanciation statique
+5.1. Instanciation statique
 
 ```
 package presentation;
@@ -107,7 +107,7 @@ public class Presentation {
 ```
 
 
-   2. Instanciation dynamique
+5.2. Instanciation dynamique
 
 ```
 package presentation;
@@ -140,7 +140,7 @@ public class Presentation2 {
 ```
 
 
-   3. Instanciation avec le Framework Spring (Version XML)
+5.3. Instanciation avec le Framework Spring (Version XML)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -171,7 +171,7 @@ public class PresentationSpring {
 ```
 
 
-   4. Instanciation avec le Framework Spring (Version annotations)
+5.4. Instanciation avec le Framework Spring (Version annotations)
 
 ```
 package gaga.elmahdi.presentation;
