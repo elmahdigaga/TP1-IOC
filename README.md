@@ -16,7 +16,7 @@ Année Universitaire: **2023-2024**
 
 
 
-1. Interface IDao
+## 1. Interface IDao
 
 ```
 package dao;
@@ -28,7 +28,7 @@ public interface IDao {
 
 
 
-2. Implémentation de IDao
+## 2. Implémentation de IDao
 
 ```
 package dao;
@@ -44,7 +44,7 @@ public class DaoImpl implements IDao{
 
 
 
-3. Interface IMetier
+## 3. Interface IMetier
 
 ```
 package metier;
@@ -56,7 +56,7 @@ public interface IMetier {
 
 
 
-4. Implémentation de IMetier avec Couplage Faible
+## 4. Implémentation de IMetier avec Couplage Faible
 
 ```
 package metier;
@@ -81,8 +81,8 @@ public class MetierImpl implements IMetier {
 
 
 
-5. Injection des dépendances
-5.1. Instanciation statique
+## 5. Injection des dépendances
+### 5.1. Instanciation statique
 
 ```
 package presentation;
@@ -103,7 +103,7 @@ public class Presentation {
 ```
 
 
-5.2. Instanciation dynamique
+### 5.2. Instanciation dynamique
 
 ```
 package presentation;
@@ -136,7 +136,7 @@ public class Presentation2 {
 ```
 
 
-5.3. Instanciation avec le Framework Spring (Version XML)
+### 5.3. Instanciation avec le Framework Spring (Version XML)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -167,7 +167,7 @@ public class PresentationSpring {
 ```
 
 
-5.4. Instanciation avec le Framework Spring (Version annotations)
+### 5.4. Instanciation avec le Framework Spring (Version annotations)
 
 ```
 package gaga.elmahdi.presentation;
