@@ -28,7 +28,6 @@ package dao;
 public interface IDao {
    double getData();
 }
-
 ```
 
 
@@ -45,7 +44,6 @@ public class DaoImpl implements IDao{
        return temp;
    }
 }
-
 ```
 
 
@@ -58,7 +56,6 @@ package metier;
 public interface IMetier {
    double calcule();
 }
-
 ```
 
 
@@ -84,7 +81,6 @@ public class MetierImpl implements IMetier {
        this.dao = dao;
    }
 }
-
 ```
 
 
@@ -108,11 +104,10 @@ public class Presentation {
        System.out.println(metier.calcule());
    }
 }
-
 ```
 
 
-    2. Instanciation dynamique
+   2. Instanciation dynamique
 
 ```
 package presentation;
@@ -142,11 +137,10 @@ public class Presentation2 {
        System.out.println(metier.calcule());
    }
 }
-
 ```
 
 
-    3. Instanciation avec le Framework Spring (Version XML)
+   3. Instanciation avec le Framework Spring (Version XML)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -174,11 +168,10 @@ public class PresentationSpring {
        System.out.println(metier.calcule());
    }
 }
-
 ```
 
 
-    4. Instanciation avec le Framework Spring (Version annotations)
+   4. Instanciation avec le Framework Spring (Version annotations)
 
 ```
 package gaga.elmahdi.presentation;
