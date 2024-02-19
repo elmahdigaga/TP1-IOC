@@ -1,0 +1,2 @@
+gaga.elmahdi.dao.DaoImpl
+gaga.elmahdi.metier.MetierImpl
