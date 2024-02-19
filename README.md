@@ -3,15 +3,11 @@
 
 # Architecture distribuée J2EE & Middlewares
 
-Filière:
-
-**« Génie du Logiciel et des Systèmes Informatiques Distribués »**
-
-**GLSID-2**
+Filière: **« Génie du Logiciel et des Systèmes Informatiques Distribués »** - **GLSID-2**
 
 Activité Pratique N°1: **Inversion de contrôle et Injection des dépendances**
 
-**Année Universitaire : 2023-2024**
+Année Universitaire: **2023-2024**
 
 # GAGA EL MAHDI
 
